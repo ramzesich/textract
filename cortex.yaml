@@ -1,0 +1,15 @@
+---
+info:
+  title: Textract
+  description: extract text from any document. no muss. no fuss.
+  x-cortex-git:
+    github:
+      alias: intsightsorg
+      repository: Intsights/textract
+  x-cortex-tag: textract
+  x-cortex-type: service
+  x-cortex-domain-parents:
+  - tag: threatintel
+openapi: 3.0.1
+servers:
+- url: "/"
